@@ -4,10 +4,307 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        .body1{
+            background-image: url(./public/images/netflix01.jpg);
+            background-size: cover;
+            height: 990x;
+           
+        }
+        .shade-background{
+            background-color: rgba(0,0,0,0.6);
+            height: 768px;
+
+        }
+        .banner-name{
+            color: red;
+            font-weight: bold;
+            font-family: Arial;
+            padding: 20px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .l-b{
+            display: flex;
+            justify-content: space-between;
+            padding:30px;
+           
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            color:white;
+            height: 650px;
+            font-weight: bold;
+            
+            font-family: Arial;
+        }
+        h1{
+            font-size: 60px;
+            width: 800px;
+            font-weight: bold;
+        }
+        h3{
+            font-weight: 40px;
+        }
+        p{
+            margin-top: 30px;
+            font-weight: bold;
+          
+        }
+        .select{
+            background-color: black;
+            color: white;
+        }
+        .tv{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+           height: 500px;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            border-top: 5px solid grey;
+    }
+       .watch{
+        font-size:30px;
+       }
+       .more{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        background-color:black;
+        color: white;
+        font-size: 40px;
+       }
+     summary{
+        border: 2px solid grey;
+        margin-bottom: 20px;
+        background-color: rgb(20, 20, 20);
+        width: 800px;
+        margin-bottom: 50px;
+     }
+     .faq{
+        font-family: Arial;
+        font-weight: bold;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        background-color:black;
+        color: white;
+        font-size: 40px;
+     }
+    .pass{
+        width: 800px;
+    }
+    .E{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border: 50px solid black;
+        
+    }
+    footer{
+      background-color: black;
+      color: white;
+      border-top: 5px solid grey;
+      height: 300px;
+    }
+    
+    .A{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .A .a{
+        padding: 20px;
+    }
+    .tv-theory{
+        margin-top: 80px;
+    }
+    .IMG{
+        margin-top: 80px;
+        height: 100px;
+        background-color: black;
+    }
+    .butt{
+        border-bottom: 5px solid grey;
+    }
+    
+    .call{
+        margin-bottom: 40px;
+    }
+    .NI{
+        color: grey;
+    }
+    </style>
 </head>
 <body>
-    <h1>amazon</h1>
-    <a href="./public/amazon form.html">click</a>
+    <div class="body1">
+    <div class="shade-background">
+        <header>
+            <div class="banner-name">
+                <font size="7">N</font>
+                <font size="6">E</font>
+                <font size="6">T</font>
+                <font size="6">F</font>
+                <font size="6">L</font>
+                <font size="6">I</font>
+                <font size="7">X</font>
+            </div>
+            <div class="l-b">
+                <div>
+            <select name="language" id="language" class="form-select select" >
+                <option value="eng">English</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </div>
+            <div>
+                <button class="btn btn-danger ms-4">Sign in</button>
+            </div>
+        </div>
+        </header>
+    <section>
+        <main>
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group input-group-lg">
+                <input type="Email" placeholder="Email adress" class="form-control"><button class="btn btn-danger">Get Started <span class="bi bi-chevron-right"></span></button>
+            </div>
+        </main>
+
+    </section>
+    <div class="tv">
+        <div class="tv-theory">
+        <h1>Enjoy on your TV.</h1>
+        <p class="watch"> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p> 
+    </div>
+    <div class="IMG">
+        <img src="./public/images/tv.gif">
+    </div>
+</div>
+    <div class="tv">
+        <div class="IMG">
+            <img src="./public/images/tv1.webp" width="400px" height="200px">
+        </div>
+        <div class="tv-theory">
+      <h1> Download your shows to watch offline.</h1> 
+   <p> Save your favourites easily and always have something to watch.</p>
+</div>
+</div>
+<div class="tv">
+    <div class="tv-theory">
+    <h1>Watch everywhere.</h1>
+    <p class="watch"> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p> 
+</div>
+<div class="IMG">
+    <img src="./public/images/tv2.gif">
+</div>
+</div>
+<div class="tv butt">
+    <div class="IMG">
+        <img src="./public/images/tv4.gif" width="400px" height="200px">
+    </div>
+    <div class="tv-theory">
+  <h1>Create profiles for children.</h1>
+  <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership. Save your favourites easily and always have something to watch.
+</div>
+</div>
+<div class="more">
+<div class="faq">Frequently Asked Questions</div></div>
+<div class="more">
+    <div>
+    <details>
+        <summary>What is Netflix?</summary>
+        <p class="pass">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+    </details>
+    <details>
+        <summary>
+            How Much Does Netflix Cost?
+    </summary>
+    <p class="pass">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+</details>
+<details>
+    <summary>Where Can I Watch?</summary>
+    <p class="pass">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+</details>
+<details>
+    <summary>How Do I Cancel?</summary>
+    <p class="pass">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+    </p>
+</details>
+<details>
+    <summary>What Can I Watch on Netflif?</summary>
+    <p class="pass">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+</details>
+ <details>
+    <summary>Is Netflix Good For Kids?</summary>
+    <p class="pass"> The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+
+        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+    
+    Ready to watch? Enter your email to create or restart </p>
+</details>
+</div>
+</div>
+<div class="E">
+<div class="mb-4">
+   <b> Ready to watch? Enter your email to create or restart your membership.</b>
+<div class="input-group mt-4">
+    <input type="Email" placeholder="your Email adres" class="form-control"><button class="btn btn-danger">Get Started <span class="bi bi-chevron-right"></span></button>
+</div>
+</div>
+ </div>
+ <footer>
+    <div class="call">Questions? Call 000-800-040-1843</div>
+    <div class="A">
+<div class="a">
+       <div> FAQ</div>
+    <div>Investor Relations</div>
+    <div>Privacy</div>
+    <div>Speed Test</div>
+</div>
+<div class="a">
+    <div>Help Centre</div>
+    <div>Jobs</div>
+    <div>Cookie Preferences</div>
+    <div>Legal Notices</div>
+</div>
+<div class="a">
+    <div>Account</div>
+    <div>Ways to Watch</div>
+    <div>Ways to Watch</div>
+    <div>Only on Netflix</div>
+</div>
+<div class="a">
+    <div>Media Centre</div>
+    <div>Terms of Use</div>
+    <div>Contact Us</div>
+</div>
+</div>
+<div>
+    <select class="select">
+        <option value="lang">language</option>
+        <option value="eng">English</option>
+        <option value="hindi">हिन्दी</option>
+    </select>
+</div>
+<div class="NI">Netflix India</div>
+</footer>
+</div>
 </body>
 </html>
