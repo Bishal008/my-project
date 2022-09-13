@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .name{
+            display: flex;
+            justify-content: space-between;
+        }
+        select{
+            width: 500px;
+            border: 2px solid grey;
+        }
+        form{
+            border: 2px solid grey;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form name="Registation" id="Registation" method="get">
+        <h2><span class="bi bi-person-fill"></span> Registation form</h2>
+        <div class="input-group mb-4">
+        <span class="bi bi-envelope-fill input-group-text"></span><input type="Email" placeholder="your Email" class="form-control">
+    </div>
+    <div class="input-group mb-4" >
+        <span class="bi bi-lock-fill input-group-text"></span><input type="password" placeholder="your password" class="form-control">
+    </div>
+    <div class="input-group mb-4">
+       <span class="bi bi-lock-fill input-group-text"></span> <input type="password" placeholder="re-type password" class="form-control">
+    </div>
+    <div class="input-group mb-4">
+        <span class="bi bi-person-fill input-group-text"></span> <input type="text" placeholder="first name" class="form-control">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="bi bi-person-fill input-group-text"></span> <input type="text" placeholder="second name" class="form-control">
+    </div>
+    <div class="input-group mb-4 ms-2">
+    <input type="radio" name="gender">male&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender">female&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender">other
+</div>
+    <div class="input-group ms-4">
+       <select name="country" id="country">
+        <option value="choose a country">choose a country</option>
+        <optgroup>
+        <option value="ind">india</option>
+        <option value="Aus">Austrial</option>
+        <option value="nz">newland</option>
+        <option value="usa">USA</option>
+        <option value="pak">pakistan</option>
+    </optgroup>
+       </select>
+    </div>
+    <div class="form-switch mb-4">
+        <input type="checkbox" class="form-check-input">I AGREE WITH TERMS AND CONDITIONS
+    </div>
+    <div class="form-switch mb-4">
+        <input type="checkbox" class="form-check-input">I WANT TO RECIVE THE NEW SLETTER
+    </div>
+    <button class="btn btn-warning w-100">Registation</button>
+    </form>
+</body>

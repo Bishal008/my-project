@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .body1{
+            background-image: url(../images/netflix01.jpg);
+            background-size: cover;
+            height: 990x;
+           
+        }
+        .shade-background{
+            background-color: rgba(0,0,0,0.6);
+            height: 768px;
+
+        }
+        .banner-name{
+            color: red;
+            font-weight: bold;
+            font-family: Arial;
+            padding: 20px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .l-b{
+            display: flex;
+            justify-content: space-between;
+            padding:30px;
+           
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            color:white;
+            height: 650px;
+            font-weight: bold;
+            
+            font-family: Arial;
+        }
+        h1{
+            font-size: 60px;
+            width: 800px;
+            font-weight: bold;
+        }
+        h3{
+            font-weight: 40px;
+        }
+        p{
+            margin-top: 30px;
+            font-weight: bold;
+          
+        }
+        .select{
+            background-color: black;
+            color: white;
+        }
+        .tv{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            border: 8px solid grey;
+            background-color: black;
+            color: white;
+            padding: 15px;
+
+        }
+       .watch{
+        font-size:30px;
+       }
+     
+    </style>
+</head>
+<body>
+    <div class="body1">
+    <div class="shade-background">
+        <header>
+            <div class="banner-name">
+                <font size="7">N</font>
+                <font size="6">E</font>
+                <font size="6">T</font>
+                <font size="6">F</font>
+                <font size="6">L</font>
+                <font size="6">I</font>
+                <font size="7">X</font>
+            </div>
+            <div class="l-b">
+                <div>
+            <select name="language" id="language" class="form-select select" >
+                <option value="eng">English</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </div>
+            <div>
+                <button class="btn btn-danger ms-4">Sign in</button>
+            </div>
+        </div>
+        </header>
+    <section>
+        <main>
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group input-group-lg">
+                <input type="Email" placeholder="Email adress" class="form-control"><button class="btn btn-danger">Get Started <span class="bi bi-chevron-right"></span></button>
+            </div>
+        </main>
+
+    </section>
+    <div class="tv">
+        <div class="tv-theory">
+        <h1>Enjoy on your TV.</h1>
+        <p class="watch"> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p> 
+    </div>
+    <div>
+        <img src="../images/tv.gif">
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

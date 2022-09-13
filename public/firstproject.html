@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first design</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            border: solid black;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            
+        }
+        .header-left{
+            font-weight: bold;
+            font-size: medium;
+            color:blue;
+            border-radius: 20px;
+            
+        }
+        .header-right {
+            font-weight: bold;
+            font-size: medium;
+            color:darkorchid;
+            border-radius: 20px;
+            
+        }
+        .header-left span{
+           margin: 40px;
+        }
+        .header-right span{
+            margin: 20px;
+        }
+        .header-left nav span:hover{
+            background-color: black;
+            color: white;
+        }
+        .header-right nav span:hover{
+            background-color: black;
+            color: white;
+        }
+        .hillimg{
+              display: grid;
+              grid-template-columns: 12fr;
+              text-align: left;
+              align-items:center;
+              background-image: url("images/wallpaper.jpg");
+              height: 500px;
+              width: 1350px;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border: double black 5px;
+              border-bottom-left-radius: 60px;
+              border-top-right-radius: 60px;
+              font-weight: bold;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              
+        }
+        .hello{
+            letter-spacing: 10px;
+            margin-left: 40px;
+        }
+        .by span{
+            letter-spacing: 6px;
+            margin-left: 30px;
+            border: solid black;
+            border-radius: 20px;
+            background-color: white;
+            height: 50px;
+        }
+        .side{
+            margin-left: 30px;
+        }
+        .hill div{
+            padding: 15px;
+        }
+        .pqr{
+            padding-top: 50px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: Arial;
+            background-color: whitesmoke;
+            padding-bottom: 90px;
+        }
+        .p{
+            display: grid;
+            grid-template-columns: 12fr;
+            text-align: center;
+        }
+        .q{
+            display: flex;
+            justify-content: space-between;
+             padding-top: 50px;
+             text-align: center;
+             width: 1000px;
+            margin-left: 180px;
+            font-size: 1cm;
+            color: blue;
+        }
+        .R{
+            letter-spacing: 8px;
+        }
+        .S{
+            border: solid orangered;
+            border-radius: 10px;
+            background-color:orangered;
+            border-width: 2px;
+            font-weight: bold;
+            font-size: larger;
+
+        }
+        .m{
+            border: solid orangered 3px;
+            border-radius: 10px;
+            background-color:orangered;
+            font-weight: bold;
+            font-size: larger;
+            
+        }
+         .r{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;     
+         }
+         .headline{
+            padding-top: 50px;
+            font-weight: bold;
+            font-style: oblique;
+            font-size: x-large;
+         }
+         .hed{
+            letter-spacing: 5px;
+         }
+         .headline2{
+            padding-top: 50px;
+            font-weight: bold;
+            font-style: oblique;
+            font-size: x-large;
+            background-color: whitesmoke;
+         }
+         .hed2{
+            letter-spacing:5px;
+         }
+         .photos{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            height: 100%;
+            width: 100%;
+         }
+         .rooms{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 70px;
+            padding-top: 50px;
+            height: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+            background-color: whitesmoke;  
+         }
+         .card{
+            border: solid black;
+            border-radius: 5px;
+            height: 340px;
+         }
+         .card-header{
+            font-family: Arial;
+            text-align: center;
+         }
+         .card-body span{
+            color: gold;
+         }
+         .c2{
+            border: solid black;
+            border-radius: 5px;
+         }
+         .c1{
+            border: solid black;
+            border-radius: 5px;
+         }
+         .c3{
+            border: solid black;
+            border-radius: 5px;
+         }
+         .c4{
+            border: solid black;
+            border-radius: 5px;
+         }
+         .footer{
+            text-align: right;
+            padding: 10px;
+            font-weight: bold;
+            font-size: medium;
+            
+         }
+         .bishal{
+            display: grid;
+              grid-template-columns: 12fr;
+              text-align: left;
+              align-items:center;
+              background-image: url("images/city2.jpg");
+              height: 500px;
+              width: 1350px;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border: double black 5px;
+              border-bottom-left-radius: 60px;
+              border-top-right-radius: 60px;
+              font-weight: bold;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .rajesh{
+            padding-left: 50px;
+            margin-bottom: -90px;
+            
+         }
+         .raj{
+           margin-left: 50px;
+            padding-left: 50px;
+            border: solid whitesmoke 2px;
+            width: 150px;
+            background-color: whitesmoke;
+            margin-top: -250px;
+         }
+         .new1{
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 70px;
+         }
+         .girls{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 200px;
+            margin-right: 200px;
+         }
+       .test{
+          font-size: 25px;
+          letter-spacing: 3px;
+          color: blue;
+       }
+       .our{
+       font-size: 40px;
+       font-weight: bold;
+       }
+       .girlimg{
+        margin-top: 100px;
+       }
+       .girls1{
+        border: 5px solid whitesmoke;
+        border-radius: 10px;
+        width: 400px;
+        margin-bottom: 100px;
+        box-shadow: 3px 4px 3px grey;
+        height: 250px;
+       }
+       .jess{
+        color: grey;
+        font-size: 20px;
+        padding: 15px;
+        margin-left: 40px;
+       }
+       b{
+        margin-left: 55px;
+        margin-bottom: 15px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <nav>
+      <span class="m"><span class="bi bi-compass-fill"> Directory</span></span>
+          <span class="bi bi-search"></span>
+          </nav>
+        </div>
+        </div>
+        <div class="header-right">
+            <nav>
+              <span><select name="product" id="product">
+                <option>Home</option>
+                <optgroup label="Electronics">
+                <option value="product vivo">mobiles</option>
+                <option value="oneplus">TV</option>
+                <option value="lenove">laptops</option>
+                <option value="trimmers">nova</option></optgroup></select> </span>
+              <span>Template</span>
+              <span>Contact</span>
+              <span>Document</span>
+              <span>sign in</span>
+              <span>sign us</span>
+              <span class="S">Add a listing</span>
+            
+            </nav>
+       
+        </div>
+    </header>
+    <section>
+        <main class="hillimg">
+             <div class="hill">
+                       <div class="hello"><font size="1" color="white" face="arial">THE BEST HOLIDAY EXPRENCE</font></div>
+                       <div class="side"><font size="7" color="white" face="arial">Stay Like a Local Hero.....</font></div>
+                        <div class="by"><span><font size="3" color="grey" face="arial">what are searching </font></span>
+                            <font color="grey"><span class="bi bi-geo-alt-fill">location</font></span>
+                              <span><font color="grey"> Catogary</font></span></div>
+             </div>
+        </main>
+        <div class="pqr">
+        <div class="p">
+              <div class="R"><font color="green" size="3" face="Arial">One-of-a-kind vacation rentals</font> </div>
+             <div><font color="blue" size="7" face="italic">Booking with us is easy</font> </div> 
+        </div>
+        <div class="q">
+            <span class="bi bi-map"></span>
+            <span class="bi bi-credit-card-2-back"></span>
+            <span class="bi bi-heart"></span>
+        </div>
+        <div class="r">
+            <span>
+            Find the perfect rental
+            One morning,
+            when Gregor Samsa woke from troubled dreams,
+            he found himself transformed in his bed in
+            </span>
+
+        <span>
+          Book with confidence
+          The bedding was hardly able to cover it and seemed ready to slide off any moment.
+          His many legs, pit
+         </span>
+
+         <span>
+          Enjoy your vacation
+          His room, 
+          a proper human room although a little too small,
+          lay peacefully between its four familiar 
+         </span>
+        </div>
+        </div>
+        <div class="headline">
+               <span class="hed"><font color="blue" size="4" face="Cooper black">Stay and eat like a local</font></span> <br>
+               <span><font color="black" size="5" face="Arial">Our guides</font> </span>
+        </div>
+        <div class="photos">
+             <span class="c1"><img src="images/city3.jpg" alt="new work" height="102%" width="100%"></span> 
+             <span class="c2"><img src="images/city.jpg" alt="city" height="102%" width="100%"></span> 
+             <span class="c3"><img src="images/city1.jpg" alt="city" height="102%" width="100%"></span>
+             <span class="c4"><img src="images/city2.jpg" alt="city" height="102%" width="100%"></span>
+        </div>
+        <div class="headline2">
+        <span class="hed2"><font color="dark pink" size="4" face="Arial">Hurry up, these are expiring soon.</font></span><br>
+       <span> <font color="black" size="5" face="Arial">Last minute deals</font></span> 
+        </div>
+            <div class="rooms">
+                <div class="card"><img class="card-img" width="100%" height="50%" src="images/room1.jpg">
+                <div class="card-header">
+                    <h3>Austrial house,from bishal house</h3>
+                </div>
+                <div class="card-body">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star"></span>
+                </div>
+                <div class="footer">
+                    <p><font size="5" color="blue"> &#8377;5000</font>per night </p>
+                    <p>more details</p>
+                </div>
+            </div>
+            <div class="card"><img class="card-img" width="100%" height="50%"src="images/room2.jpg">
+                <div class="card-header">
+                    <h3>Austrial house,from raghu</h3>
+                </div>
+                <div class="card-body">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star"></span>
+                </div>
+                <div class="footer">
+                    <p><font size="5" color="blue"> &#8377;3000</font> per night</p>
+                    <p>more details</p>
+                </div>
+            </div>
+            <div class="card"><img class="card-img" width="100%" height="50%" src="images/room3.jpg">
+                <div class="card-header">
+                    <h3>Austrial house,from simran</h3>
+                </div>
+                <div class="card-body">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star"></span>
+                    <span class="bi bi-star"></span>
+                </div>
+                <div class="footer">
+                    <p><font size="5" color="blue"> &#8377;1000</font>per night </p>
+                    <p>more details</p>
+                </div>
+            </div>
+            <div class="card"><img class="card-img" width="100%" height="50%" src="images/room4.jpg">
+                <div class="card-header">
+                    <h3>Austrial house,from rajesh</h3>
+                </div>
+                <div class="card-body">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star"></span>
+                    <span class="bi bi-star"></span>
+                    <span class="bi bi-star"></span>
+                </div>
+                <div class="footer">
+                    <p><font size="5" color="blue"> &#8377;900</font>per night </p>
+                    <p>more details</p>
+                </div>
+            </div>
+            </div>
+            <main class="bishal">
+                <div class="rajesh"><font size="7" color="white" face="arial">Ready for your next holiday</font></div>
+                <div class="raj"><font size="4" color="black" face="arial">GET STATED</font></div> 
+            </main>
+            <div class="new1">
+              <div class="test"><b> Testimonials</b></div>  
+               <div class="our">Our dear customers said about us</div> 
+               </div>
+            <main class="girls">
+                <div class="girls1"> 
+                  <span class="girlimg"><img src="./images/girl1.jpg" width="70px"></span>             
+                       <p class="jess"> Lorem Ipsum is simply dummy text of 
+                    the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text ever</p>
+                    <b>Jessica Watson</b>
+                </div>
+                <div class="girls1">
+                    <span class="girlimg"><img src="./images/girl1.jpg" width="70px"></span> 
+                         <p class="jess"> Lorem Ipsum is simply dummy text of 
+                            the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's 
+                            standard dummy text ever</p>
+                           <b>Jessica Watson</b>
+                </div>
+            </div>
+            </main>
+        </section>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+      .name{
+        margin-bottom: 1.5cm;
+        margin-left: 0.5cm;
+      }
+      .q{
+        margin-bottom: 1.5cm;
+        margin-left: 0.5cm;
+      }
+      .A{
+        margin-bottom: 1.5cm;
+        margin-left: 0.5cm;
+      }
+      .R{
+        color:white;
+        background-color:black;
+        font-size: 20px;
+        border: solid black 3px;
+        border-radius: 9px;
+        box-shadow: 5px 3px 2px black;
+        font-family: Arial;
+      }
+      .r{
+        text-align: center;
+      }
+      .R:hover{
+        background-color: blue;
+      }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend align="center">
+           <b>MY-DETAILS</b>
+        </legend>
+        <form name="my-details" method="get" id="Details">
+            <div class="name">Name: <br>
+                first-name<input type="text" placeholder="first-name" required autofocus><br>
+                last-name<input type="text" placeholder="last-name" required><br>
+            </div>
+            <div class="q">qualifications:<br>
+                10<sup>th</sup><input type="text" placeholder="percent"required ><br>
+                12<sup>th</sup><input type="text"placeholder="percent"required><br>
+                +3<sup>rd</sup><input type="text"placeholder="percent"required><br>
+            </div>
+            <div class="A">Adress:<br>
+                State<input type="text" placeholder="state"required><br>
+                Dist<input type="text" placeholder="Dist"required><br>
+                village<input type="text" placeholder="village"required><br>
+                ph-no-<input type="text" placeholder="number"required maxlength="10" minlength="10"><br>
+            </div>
+            <div class="r">
+                <span><button class="R" name="R"><b>Register</b></button></span>
+            </div>        
+        </form>
+    </fieldset>
+</body>
+</html>

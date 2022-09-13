@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    footer {
+       display: flex;
+         justify-content: space-between;
+         background-color:black;
+         color:#fff;
+         font-family:italic;
+         padding: 10px;
+         }
+        .left-pannel{
+            display: grid;
+            grid-template-columns:3fr 3fr;
+            padding-left: 10px;
+            border-left: 5px solid;
+            border-top: 5px solid;
+            border-bottom: 5px solid;
+            border-color: blueviolet;
+            border-style: hidden;
+        }
+        .right-pannel{
+            display: grid;
+            grid-template-columns:3fr 3fr;
+             padding-right: 10px;
+             padding-left: 20px;
+             border-left: 3px dotted;
+             border-right: 5px solid;
+             border-top: 5px solid;
+             border-bottom: 5px solid;
+             border-color: blueviolet;
+             border-style: hidden;
+        }
+        .title{
+            font-weight:bold;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: #f00; 
+        }
+        header{
+            display:flex;
+            justify-content:space-between;
+            background-color: grey;
+            color:black;
+            padding:10px;
+        }
+         .header-left{
+            background-color: darkgreen;
+            color:white;
+            font-size: 18px;
+            font-weight: bold;
+            font-style: normal;
+            border-radius: 20px;
+            
+         }
+         .header-center{
+            font-size:13px;
+            font-weight: bold;
+            border-radius: 20px;
+            
+         }
+         .header-right span{
+            margin-right:20px;
+         }
+         
+         .header-center span{
+            margin: 10px;
+         }
+         .header-left nav span:hover{
+            background-color: pink;
+            color:white
+         }
+        .header-center nav span:hover{
+            background-color: blue;
+            color: white;
+        }
+        .header-right nav span:hover{
+            background-color: orange;
+            color:white
+        }
+         section{
+            height:800px;
+            display:grid;
+            grid-template-columns: 3fr 6fr 3fr;
+            
+         }
+    
+         aside nav{
+            position: fixed;
+            bottom:20px;
+            right:20px;
+            background-color:white;          
+         }
+         aside nav div{
+            padding: 5px;
+         }
+         .f{
+            color: darkblue;
+         }
+         .w{
+            color:darkgreen;
+         }
+         .t{
+            color:skyblue;
+         }
+         .i{
+            color:rgb(122, 24, 24);
+         }
+         .tel{
+            color:blue;
+         }
+</style>
+</head>
+<body>
+    <header>
+            <div class="header-left">
+                <nav>
+                <span>All Departments</span>
+                </nav>
+         </div>
+         <div class="header-center">
+            <nav>
+                <span>HOME</span>
+                <span>SHOP</span>
+                <span>STORES</span>
+                <span>MEGA MEANU</span>
+                <span>PAGES</span>
+                <span>ACCOUNT</span>
+                <span>DOCS</span>
+                </nav>
+         </div>
+          <div class="header-right">
+            <nav>
+                <span class="bi bi-search"></span>
+                <span class="bi bi-geo-alt-fill">location</span>
+                <span class="bi bi-people"></span>
+                <span class="bi bi-heart"></span>
+            </nav>
+          </div>
+    </header>
+     <section>
+        <main>
+
+        </main>
+        <aside>
+         <nav>
+              <span class="f"><div class="bi bi-facebook"></div></span>
+              <span class="w"><div class="bi bi-whatsapp"></div></span>
+              <span class="t"><div class="bi bi-twitter"></div></span>
+              <span class="i"><div class="bi bi-instagram"></div></span>
+              <span class="tel"><div class="bi bi-telegram"></div></span>
+         </nav>
+        </aside>
+  </section>
+ <footer>
+     <div class="left-pannel">
+         <div>
+             <div class="title">get to know us</div>
+             <div>about us</div>
+             <div>careers</div>
+             <div>press releases</div>
+             <div>amazon cares</div>
+             <div>gift a smile</div>
+
+         </div>
+         <div>
+             <div class="title">connect with us</div>
+             <div>facebook</div>
+             <div>twitter</div>
+             <div>instagram</div>
+         </div>
+     </div>
+     <div class="right-pannel">
+         <div>
+         <div class="title">make money with us</div>
+         <div>sell on amazon</div>
+         <div>amazon global selling</div>
+     </div>
+     
+     <div>
+         <div class="title">let us help you</div>
+         <div>covid-19</div>
+         <div>your account</div>
+     </div> 
+     </div>
+ </footer>   
+</body>
+</html>

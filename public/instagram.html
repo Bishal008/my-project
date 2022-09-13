@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram log in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        h1{
+            font-family: Harlow Solid Italic;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            background-color: whitesmoke;
+        }
+       
+        form{
+            border: 1px solid grey;
+            width: 400px;
+        }
+        form div{
+            padding: 10px;
+            padding-right: 30px;
+        }
+        .sign{
+            border: 1px solid grey;
+            width: 400px;
+            margin-top: 20px;
+        }
+        .get{
+            border: 1px solid white;
+            width: 400px;
+            margin-top: 20px;
+        }
+       .abc{
+        display: flex;
+        justify-content: center;
+       }
+       .abc div{
+        padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <section>
+        <main>
+            <img src="./images/inst123.png" height="550px" width="650px">
+        </main>
+        <nav>
+            <form name="Insta"  method="get">
+                <div class="insta">    
+                  <h1 align="center">Instagram</h1>
+                </div>
+                <div>
+                    <input type="text email" required placeholder="phone number,username or email" size="37px">
+                </div>
+                <div class="mt-2">
+                <input type="password"required placeholder="password" size="37px">
+            </div>
+            <div class="log mt-2">
+            <button class="btn btn-primary w-100">Log in</button>
+        </div>
+        <div>
+            ------------------------or---------------------------
+        </div>
+        <div align="center">
+           <font color="blue"><span class="bi bi-facebook">log in with Facebook</span></font>
+        </div>
+        <div align="center">
+            forgot password?
+        </div>
+            </form>
+            <div class="sign" align="center" >
+                Don't have an account? <font color="blue">sign up</font>
+            </div>
+            <div class="get" align="center">
+                Get the app.
+            </div>
+            <div>
+                <img src="./images/app.png" width="200px" height="55px">
+                <img src="./images/playstore.png" width="200px" height="70px">
+            </div>
+        </nav>
+    </section>
+    <footer>
+        
+    <div class="abc">
+        <div>Meta</div>
+        <div>About</div>
+        <div>Blog</div>
+        <div>Job</div>
+        <div>help</div>
+        <div>Api</div>
+        <div>Privacy</div>
+        <div>Terms</div>
+        <div>Top Account</div>
+        <div>Hashtags</div>
+        <div>Location</div>
+        <div>Instagram lite</div>
+        <div>Contact Uploading & Non-Users</div>
+        </div>
+        <div class="abc">
+        <div>Dance</div>
+        <div>food&drink</div>
+        <div>Home & Garden</div>
+        <div>music</div>
+        <div>Visual Arts</div>
+    </div>
+    <div class="abc">
+           <select name="english" id="english">
+            <option value="eng">English</option>
+            <option value="hindi">Hindi</option>
+           </select>
+           <div>&copy;2022 Instagram from Meta</div>
+        </div>
+    </footer>
+</body>
+</html>

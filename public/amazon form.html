@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: center;
+            text-align: center; 
+        }
+       main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       form{
+             border: 1px solid black;
+             height: 400px;
+             width: 350px
+       }
+       form div{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+       }
+       .new-ac{
+        text-align: center;
+       }
+       .but{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+       }
+       .foot{
+         display: flex;
+         justify-content: center;
+       }
+       .foot div{
+        padding: 15px;
+       }
+       .end{
+        display: flex;
+         justify-content: center;
+       }
+       footer{
+        background-color: whitesmoke;
+        margin-bottom: 50px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+       <img src="./images/download.png" height="100px" width="170px">
+    </header>
+    <section>
+        <main>
+            <form name="sign-in" id="sign-in">
+                <div><h2>Sign in</h2></div>
+                <div>
+                   <label for="user" class="form-label"> Email or mobile phone number</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="your number or Email" class="form-control" size="60px" name="user">
+                </div>
+                <div>
+                    <button class="btn btn-warning w-100">Continue</button>
+                </div>
+                <div>
+                   By Continue,you agree to Amazon's <font color="blue">conditions of use </font>and <font color="blue"> privacy notice.</font>
+                </div>
+                <div>
+                    <details>
+                        <summary><font color="blue">need help?</font></summary>
+                        <ul>
+                           <li>Forgot password</li>
+                           <li>other problems</li> 
+                        </ul>
+                    </details>
+                </div>
+            </form>
+            </main>
+            <div class="new-ac mt-4">
+                   ----------------new to Amazon?--------------------
+        </div>
+        <div class="but">
+            <button class="w-25">Creat your Amazon account</button>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+       <div><font color="blue">conditions of use</font></div>
+       <div><font color="blue">Privacy Notice</font></div>
+       <div><font color="blue">Help</font></div>
+    </div>
+    <div class="end">
+        &copy;1996-2022,Amazon.com,inc or its affiliates
+    </div>
+    </footer>
+</body>
+</html>
